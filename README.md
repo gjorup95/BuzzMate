@@ -56,6 +56,10 @@ In doing so it allows the user to be more conscious of a given trip without havi
 The logic of the system is comprised of a firestore database that holds the updating GPS location of various public transport vehicles and the user. The application then continously polls this database to give feedback of the updating locations and provides this feedback through a phone cover that has shapechanging features. <br/>
 These features are non-invasive and provides varying amounts of feedback depending on the urgency of the time frame. So that the invasiveness of the physical shapechange increases as the time frame shrinks.
 <div align="center">
+  <img src="https://github.com/gjorup95/BuzzMate/blob/master/images/cover.png" />
+</div>
+Simple architectural drawing of how data is fetched, stored and used from the firestore database to the physical manifestation in the phone cover.
+<div align="center">
   <img src="https://github.com/gjorup95/BuzzMate/blob/master/images/arkitektur.png" />
 </div>
 
