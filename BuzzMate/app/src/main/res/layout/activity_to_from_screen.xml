@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/page_buttons"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272425"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/fra"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textColor="#272425"
+        android:textSize="30sp"
+        android:background="#f1d2c4"
+        android:text="@string/fra_button" />
+
+    <Button
+        android:id="@+id/til"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:background="#f1d2c4"
+        android:textColor="#272425"
+        android:textSize="30sp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="@string/to_button" />
+    <Button
+        android:id="@+id/send"
+        android:layout_margin="10dp"
+        android:textColor="#272425"
+        android:textSize="30sp"
+        android:background="#999999"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:enabled="true"
+        android:layout_weight="0.5"
+        android:text="@string/send_button"/>
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.5"
+        android:background="#f1d2c4"
+        android:text="Tilbage"
+        android:textColor="#272425"
+        android:textSize="30sp" />
+
+</LinearLayout>
+

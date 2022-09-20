@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#272425"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PreviousFare">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:weightSum="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f1d2c4"
+            android:onClick="button1"
+            android:text="New Button"
+            android:textColor="#272425"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f1d2c4"
+            android:onClick="button2"
+            android:text="New Button"
+            android:textColor="#272425"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f1d2c4"
+            android:onClick="button3"
+            android:text="New Button"
+            android:textColor="#272425"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f1d2c4"
+            android:onClick="button4"
+            android:text="New Button"
+            android:textColor="#272425"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f1d2c4"
+            android:layout_weight="1"
+            android:onClick="goBack"
+            android:textColor="#272425"
+            android:textSize="20sp"
+            android:text="Tilbage" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

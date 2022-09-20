@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">BuzzMate</string>
+    <string name="fromA_button">STOP A</string>
+    <string name="fromB_button">STOP B</string>
+    <string name="fromC_button">STOP C</string>
+    <string name="fromD_button">STOP D</string>
+    <string name="toA_button">STOP A</string>
+    <string name="toB_button">STOP B</string>
+    <string name="toC_button">STOP C</string>
+    <string name="toD_button">STOP D</string>
+    <string name="admin">ADMIN PANEL for BuzzMate</string>
+    <string name="admin_set_stop">ADMIN PANEL for SetStop</string>
+    <string name="admin_be_bus">ADMIN PANEL for BeBus</string>
+    <string name="send_button">Start Rejse</string>
+    <string name="to_button">Til</string>
+    <string name="fra_button">Fra</string>
+    <string name="button_ny_rejse">Ny Rejse</string>
+    <string name="button_tidligere_rejse">Tidligere Rejser</string>
+    <string name="title_activity_create_post">CreatePostActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <string name="stage_null_text">Velkommen til Buzzmate, denne vejledning vil guide dig igennem BuzzMates forskellige stadier.</string>
+    <string name="stage_one_text">Det første stadie er når bussen er langt væk </string>
+    <string name="stage_two_text">Det andet stadie er når bussen er kommet tættere på din position</string>
+    <string name="stage_three_text">Det tredje stadie tre er nå bussen er tæt på din position</string>
+    <string name="stage_four_text">Det fjerde stadie er når bussen er ankommet til din position</string>
+
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+</resources>
