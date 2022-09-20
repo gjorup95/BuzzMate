@@ -26,7 +26,7 @@
   It does this to alert the visually impaired user of when to prepare to board and when to get off.
     <br />
    <div align="center">
-  <img src="https://github.com/gjorup95/HotCiv-Java/blob/master/images/Hotciv.png" />
+  <img src="https://github.com/gjorup95/BuzzMate/blob/master/images/buzzmate%20cover.png" />
 </div>
 </div>
 
