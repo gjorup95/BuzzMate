@@ -63,7 +63,7 @@ These features are non-invasive and provides varying amounts of feedback dependi
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/gjorup95/HotCiv-Java](https://github.com/gjorup95/HotCiv-Java)
+Project Link: [https://github.com/gjorup95/BuzzMate](https://github.com/gjorup95/BuzzMate)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
