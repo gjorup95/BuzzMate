@@ -19,10 +19,11 @@
 
 
 
-<h3 align="center">HotCiv</h3>
+<h3 align="center">BuzzMate</h3>
 
   <p align="center">
-   Java project that follows the principles of the famous game Civilization and uses it as a learning ground for exploring different developer practices in the java language.
+   A native android project that uses GPS location to track the arrival of public transportation vehicles<br/>
+  It does this to alert the visually impaired user of when to prepare to board and when to get off.
     <br />
    <div align="center">
   <img src="https://github.com/gjorup95/HotCiv-Java/blob/master/images/Hotciv.png" />
@@ -38,14 +39,8 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -56,34 +51,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-HotCiv is a java project featuring different design patterns such as: Strategy-, Factory-, Observer-, Builder patterns and more. <br />
-The project realises a budget version of the popular game civilization and is developed to facilitate a learning space for java development, unit testing, refactoring and the implementation of different design patterns to modularize the code base into a fitting object oriented manner. <br/>
-The codebase is developed using the test driven development methodology where the writing of an automated test takes precedence over the immediate creation of functional code.
+BuzzMate is a combination of a physical shapechanging phone cover and a android application that allows a visually impaired user to track the movement of a public transportation vehicle in relation to the user.  <br />
+In doing so it allows the user to be more conscious of a given trip without having access to the visual modality. By making sure the user is aware when to get off at the correct stopping point and when to board. <br>
+The logic of the system is comprised of a firestore database that holds the updating GPS location of various public transport vehicles and the user. The application then continously polls this database to give feedback of the updating locations and provides this feedback through a phone cover that has shapechanging features. <br/>
+These features are non-invasive and provides varying amounts of feedback depending on the urgency of the time frame. So that the invasiveness of the physical shapechange increases as the time frame shrinks.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-Project is built with Maven & Gradle which are the sole organisers of dependencies in the project.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-To run the project <br/>
-Build with gradle <br/>
-Run HotCivServer <br/>
-Run HotCivClient <br/>
-
-
-### Prerequisites
-JAVA SDK <br/>
-Gradle <br/>
-Maven <br/>
 
 
 <!-- CONTACT -->
